@@ -389,7 +389,7 @@ event_process_active(struct event_base *base)
 		while (ncalls) {
 			ncalls--;
 			ev->ev_ncalls = ncalls;
-			(*ev->ev_callback)((int)ev->ev_fd, ev->ev_res, ev->ev_arg);
+			(*ev->ev_callback)((int)ev->ev_fd, ev->ev_res, ev->ev_arg);  //调用ncalls次回调
 			if (event_gotsig || base->event_break)
 				return;
 		}
@@ -420,7 +420,7 @@ event_base_get_method(struct event_base *base)
 }
 
 static void
-event_loopexit_cb(int fd, short what, void *arg)
+event_loopexit_cb(int fd, short what, void *arg)  //设置终止标记
 {
 	struct event_base *base = arg;
 	base->event_gotterm = 1;
@@ -443,7 +443,7 @@ event_base_loopexit(struct event_base *event_base, const struct timeval *tv)
 
 /* not thread safe */
 int
-event_loopbreak(void)
+event_loopbreak(void)  //立即终止
 {
 	return (event_base_loopbreak(current_base));
 }
@@ -602,14 +602,14 @@ event_base_once(struct event_base *base, int fd, short events,
 	eonce->cb = callback;
 	eonce->arg = arg;
 
-	if (events == EV_TIMEOUT) {
+	if (events == EV_TIMEOUT) {  //如果是超时事件 时间设置为0 
 		if (tv == NULL) {
 			evutil_timerclear(&etv);
 			tv = &etv;
 		}
 
 		evtimer_set(&eonce->ev, event_once_cb, eonce);
-	} else if (events & (EV_READ|EV_WRITE)) {
+	} else if (events & (EV_READ|EV_WRITE)) {  // 设置为读/写事件
 		events &= EV_READ|EV_WRITE;
 
 		event_set(&eonce->ev, fd, events, event_once_cb, eonce);
@@ -619,7 +619,7 @@ event_base_once(struct event_base *base, int fd, short events,
 		return (-1);
 	}
 
-	res = event_base_set(base, &eonce->ev);
+	res = event_base_set(base, &eonce->ev); //设置对应的event_base
 	if (res == 0)
 		res = event_add(&eonce->ev, tv);
 	if (res != 0) {
@@ -819,6 +819,7 @@ event_del(struct event *ev)
 		*ev->ev_pncalls = 0;
 	}
 
+    //删除对应链表中的事件
 	if (ev->ev_flags & EVLIST_TIMEOUT)
 		event_queue_remove(base, ev, EVLIST_TIMEOUT);
 
@@ -827,7 +828,7 @@ event_del(struct event *ev)
 
 	if (ev->ev_flags & EVLIST_INSERTED) {
 		event_queue_remove(base, ev, EVLIST_INSERTED);
-		return (evsel->del(evbase, ev));
+		return (evsel->del(evbase, ev));  //取消关注事件
 	}
 
 	return (0);
