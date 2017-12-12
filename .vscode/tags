@@ -1,0 +1,125 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AddDeclaration	../event_rpcgen.py	/^    def AddDeclaration(self, funcname):$/;"	kind:member	line:879
+AddEntry	../event_rpcgen.py	/^    def AddEntry(self, entry):$/;"	kind:member	line:32
+AddFuncName	../event_rpcgen.py	/^    def AddFuncName(self):$/;"	kind:member	line:376
+Array	../event_rpcgen.py	/^    def Array(self):$/;"	kind:member	line:329
+AssignDeclaration	../event_rpcgen.py	/^    def AssignDeclaration(self, funcname):$/;"	kind:member	line:379
+AssignDeclaration	../event_rpcgen.py	/^    def AssignDeclaration(self, funcname):$/;"	kind:member	line:456
+AssignDeclaration	../event_rpcgen.py	/^    def AssignDeclaration(self, funcname):$/;"	kind:member	line:762
+AssignDeclaration	../event_rpcgen.py	/^    def AssignDeclaration(self, funcname):$/;"	kind:member	line:874
+AssignFuncName	../event_rpcgen.py	/^    def AssignFuncName(self):$/;"	kind:member	line:373
+BodyPreamble	../event_rpcgen.py	/^def BodyPreamble(name):$/;"	kind:function	line:1336
+CodeAdd	../event_rpcgen.py	/^    def CodeAdd(self):$/;"	kind:function	line:926
+CodeAssign	../event_rpcgen.py	/^    def CodeAssign(self):$/;"	kind:function	line:897
+CodeAssign	../event_rpcgen.py	/^    def CodeAssign(self):$/;"	kind:member	line:384
+CodeAssign	../event_rpcgen.py	/^    def CodeAssign(self):$/;"	kind:member	line:480
+CodeAssign	../event_rpcgen.py	/^    def CodeAssign(self):$/;"	kind:member	line:568
+CodeAssign	../event_rpcgen.py	/^    def CodeAssign(self):$/;"	kind:member	line:651
+CodeAssign	../event_rpcgen.py	/^    def CodeAssign(self):$/;"	kind:member	line:767
+CodeBase	../event_rpcgen.py	/^    def CodeBase(self):$/;"	kind:member	line:414
+CodeClear	../event_rpcgen.py	/^    def CodeClear(self, structname):$/;"	kind:function	line:1002
+CodeClear	../event_rpcgen.py	/^    def CodeClear(self, structname):$/;"	kind:member	line:397
+CodeClear	../event_rpcgen.py	/^    def CodeClear(self, structname):$/;"	kind:member	line:511
+CodeClear	../event_rpcgen.py	/^    def CodeClear(self, structname):$/;"	kind:member	line:599
+CodeClear	../event_rpcgen.py	/^    def CodeClear(self, structname):$/;"	kind:member	line:723
+CodeClear	../event_rpcgen.py	/^    def CodeClear(self, structname):$/;"	kind:member	line:828
+CodeComplete	../event_rpcgen.py	/^    def CodeComplete(self, structname):$/;"	kind:function	line:955
+CodeComplete	../event_rpcgen.py	/^    def CodeComplete(self, structname):$/;"	kind:member	line:402
+CodeComplete	../event_rpcgen.py	/^    def CodeComplete(self, structname):$/;"	kind:member	line:691
+CodeFree	../event_rpcgen.py	/^    def CodeFree(self, name):$/;"	kind:function	line:1026
+CodeFree	../event_rpcgen.py	/^    def CodeFree(self, name):$/;"	kind:member	line:411
+CodeFree	../event_rpcgen.py	/^    def CodeFree(self, name):$/;"	kind:member	line:613
+CodeFree	../event_rpcgen.py	/^    def CodeFree(self, name):$/;"	kind:member	line:738
+CodeFree	../event_rpcgen.py	/^    def CodeFree(self, name):$/;"	kind:member	line:844
+CodeGet	../event_rpcgen.py	/^    def CodeGet(self):$/;"	kind:member	line:358
+CodeGet	../event_rpcgen.py	/^    def CodeGet(self):$/;"	kind:member	line:466
+CodeGet	../event_rpcgen.py	/^    def CodeGet(self):$/;"	kind:member	line:633
+CodeGet	../event_rpcgen.py	/^    def CodeGet(self):$/;"	kind:member	line:787
+CodeGet	../event_rpcgen.py	/^    def CodeGet(self):$/;"	kind:member	line:884
+CodeMarshal	../event_rpcgen.py	/^    def CodeMarshal(self, buf, tag_name, var_name):$/;"	kind:function	line:990
+CodeMarshal	../event_rpcgen.py	/^    def CodeMarshal(self, buf, tag_name, var_name):$/;"	kind:member	line:506
+CodeMarshal	../event_rpcgen.py	/^    def CodeMarshal(self, buf, tag_name, var_name):$/;"	kind:member	line:547
+CodeMarshal	../event_rpcgen.py	/^    def CodeMarshal(self, buf, tag_name, var_name):$/;"	kind:member	line:594
+CodeMarshal	../event_rpcgen.py	/^    def CodeMarshal(self, buf, tag_name, var_name):$/;"	kind:member	line:718
+CodeMarshal	../event_rpcgen.py	/^    def CodeMarshal(self, buf, tag_name, var_name):$/;"	kind:member	line:823
+CodeNew	../event_rpcgen.py	/^    def CodeNew(self, name):$/;"	kind:function	line:1020
+CodeNew	../event_rpcgen.py	/^    def CodeNew(self, name):$/;"	kind:member	line:518
+CodeNew	../event_rpcgen.py	/^    def CodeNew(self, name):$/;"	kind:member	line:557
+CodeNew	../event_rpcgen.py	/^    def CodeNew(self, name):$/;"	kind:member	line:609
+CodeNew	../event_rpcgen.py	/^    def CodeNew(self, name):$/;"	kind:member	line:734
+CodeNew	../event_rpcgen.py	/^    def CodeNew(self, name):$/;"	kind:member	line:839
+CodeUnmarshal	../event_rpcgen.py	/^    def CodeUnmarshal(self, buf, tag_name, var_name):$/;"	kind:function	line:974
+CodeUnmarshal	../event_rpcgen.py	/^    def CodeUnmarshal(self, buf, tag_name, var_name):$/;"	kind:member	line:494
+CodeUnmarshal	../event_rpcgen.py	/^    def CodeUnmarshal(self, buf, tag_name, var_name):$/;"	kind:member	line:538
+CodeUnmarshal	../event_rpcgen.py	/^    def CodeUnmarshal(self, buf, tag_name, var_name):$/;"	kind:member	line:584
+CodeUnmarshal	../event_rpcgen.py	/^    def CodeUnmarshal(self, buf, tag_name, var_name):$/;"	kind:member	line:704
+CodeUnmarshal	../event_rpcgen.py	/^    def CodeUnmarshal(self, buf, tag_name, var_name):$/;"	kind:member	line:802
+Declaration	../event_rpcgen.py	/^    def Declaration(self):$/;"	kind:function	line:1044
+Declaration	../event_rpcgen.py	/^    def Declaration(self):$/;"	kind:member	line:461
+Declaration	../event_rpcgen.py	/^    def Declaration(self):$/;"	kind:member	line:552
+Declaration	../event_rpcgen.py	/^    def Declaration(self):$/;"	kind:member	line:619
+Declaration	../event_rpcgen.py	/^    def Declaration(self):$/;"	kind:member	line:745
+Declaration	../event_rpcgen.py	/^    def Declaration(self):$/;"	kind:member	line:850
+Entry	../event_rpcgen.py	/^class Entry:$/;"	kind:class	line:299
+EntryArray	../event_rpcgen.py	/^class EntryArray(Entry):$/;"	kind:class	line:856
+EntryBytes	../event_rpcgen.py	/^class EntryBytes(Entry):$/;"	kind:class	line:443
+EntryInt	../event_rpcgen.py	/^class EntryInt(Entry):$/;"	kind:class	line:531
+EntryString	../event_rpcgen.py	/^class EntryString(Entry):$/;"	kind:class	line:561
+EntryStruct	../event_rpcgen.py	/^class EntryStruct(Entry):$/;"	kind:class	line:624
+EntryTagName	../event_rpcgen.py	/^    def EntryTagName(self, entry):$/;"	kind:member	line:46
+EntryVarBytes	../event_rpcgen.py	/^class EntryVarBytes(Entry):$/;"	kind:class	line:750
+GetDeclaration	../event_rpcgen.py	/^    def GetDeclaration(self, funcname):$/;"	kind:member	line:353
+GetDeclaration	../event_rpcgen.py	/^    def GetDeclaration(self, funcname):$/;"	kind:member	line:451
+GetDeclaration	../event_rpcgen.py	/^    def GetDeclaration(self, funcname):$/;"	kind:member	line:757
+GetDeclaration	../event_rpcgen.py	/^    def GetDeclaration(self, funcname):$/;"	kind:member	line:865
+GetFuncName	../event_rpcgen.py	/^    def GetFuncName(self):$/;"	kind:member	line:350
+GetNextStruct	../event_rpcgen.py	/^def GetNextStruct(file):$/;"	kind:function	line:1192
+GetTranslation	../event_rpcgen.py	/^    def GetTranslation(self):$/;"	kind:member	line:312
+GuardName	../event_rpcgen.py	/^def GuardName(name):$/;"	kind:function	line:1290
+HeaderPostamble	../event_rpcgen.py	/^def HeaderPostamble(name):$/;"	kind:function	line:1332
+HeaderPreamble	../event_rpcgen.py	/^def HeaderPreamble(name):$/;"	kind:function	line:1297
+LineCount	../event_rpcgen.py	/^    def LineCount(self):$/;"	kind:member	line:322
+MakeArray	../event_rpcgen.py	/^    def MakeArray(self, yes=1):$/;"	kind:member	line:344
+MakeOptional	../event_rpcgen.py	/^    def MakeOptional(self):$/;"	kind:member	line:347
+Name	../event_rpcgen.py	/^    def Name(self):$/;"	kind:member	line:338
+Name	../event_rpcgen.py	/^    def Name(self):$/;"	kind:member	line:43
+NormalizeLine	../event_rpcgen.py	/^def NormalizeLine(line):$/;"	kind:function	line:1051
+Optional	../event_rpcgen.py	/^    def Optional(self):$/;"	kind:member	line:332
+Parse	../event_rpcgen.py	/^def Parse(file):$/;"	kind:function	line:1272
+PrintCode	../event_rpcgen.py	/^    def PrintCode(self, file):$/;"	kind:member	line:118
+PrintDeclaration	../event_rpcgen.py	/^    def PrintDeclaration(self, file):$/;"	kind:member	line:70
+PrintForwardDeclaration	../event_rpcgen.py	/^    def PrintForwardDeclaration(self, file):$/;"	kind:member	line:67
+PrintIdented	../event_rpcgen.py	/^    def PrintIdented(self, file, ident, code):$/;"	kind:member	line:52
+PrintTags	../event_rpcgen.py	/^    def PrintTags(self, file):$/;"	kind:member	line:57
+ProcessOneEntry	../event_rpcgen.py	/^def ProcessOneEntry(newstruct, entry):$/;"	kind:function	line:1061
+ProcessStruct	../event_rpcgen.py	/^def ProcessStruct(data):$/;"	kind:function	line:1169
+SetLineCount	../event_rpcgen.py	/^    def SetLineCount(self, number):$/;"	kind:member	line:326
+SetStruct	../event_rpcgen.py	/^    def SetStruct(self, struct):$/;"	kind:member	line:319
+Struct	../event_rpcgen.py	/^class Struct:$/;"	kind:class	line:25
+Tag	../event_rpcgen.py	/^    def Tag(self):$/;"	kind:member	line:335
+Type	../event_rpcgen.py	/^    def Type(self):$/;"	kind:member	line:341
+Verify	../event_rpcgen.py	/^    def Verify(self):$/;"	kind:member	line:426
+Verify	../event_rpcgen.py	/^    def Verify(self):$/;"	kind:member	line:523
+_NAME	../event_rpcgen.py	/^_NAME = "event_rpcgen.py"$/;"	kind:variable	line:12
+_STRUCT_RE	../event_rpcgen.py	/^_STRUCT_RE = '[a-z][a-z_0-9]*'$/;"	kind:variable	line:14
+_VERSION	../event_rpcgen.py	/^_VERSION = "0.1"$/;"	kind:variable	line:13
+__init__	../event_rpcgen.py	/^    def __init__(self, entry):$/;"	kind:member	line:857
+__init__	../event_rpcgen.py	/^    def __init__(self, name):$/;"	kind:member	line:26
+__init__	../event_rpcgen.py	/^    def __init__(self, type, name, tag):$/;"	kind:member	line:300
+__init__	../event_rpcgen.py	/^    def __init__(self, type, name, tag):$/;"	kind:member	line:532
+__init__	../event_rpcgen.py	/^    def __init__(self, type, name, tag):$/;"	kind:member	line:562
+__init__	../event_rpcgen.py	/^    def __init__(self, type, name, tag):$/;"	kind:member	line:751
+__init__	../event_rpcgen.py	/^    def __init__(self, type, name, tag, length):$/;"	kind:member	line:444
+__init__	../event_rpcgen.py	/^    def __init__(self, type, name, tag, refname):$/;"	kind:member	line:625
+cppcomment	../event_rpcgen.py	/^cppcomment = re.compile(r'\\\/\\\/.*$')$/;"	kind:variable	line:20
+cppdirect	../event_rpcgen.py	/^cppdirect = []$/;"	kind:variable	line:22
+event_rpcgen.py	../event_rpcgen.py	1;"	kind:file	line:1
+headerdirect	../event_rpcgen.py	/^headerdirect = []$/;"	kind:variable	line:21
+line_count	../event_rpcgen.py	/^line_count = 0$/;"	kind:variable	line:17
+main	../event_rpcgen.py	/^def main(argv):$/;"	kind:function	line:1365
+white	../event_rpcgen.py	/^white = re.compile(r'^\\s+')$/;"	kind:variable	line:19
